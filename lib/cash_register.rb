@@ -58,8 +58,8 @@ class CashRegister
     end
 
     def void_last_transaction
-        new_array = @cart.pop
-        return @cart
+        @cart.pop
+        p @cart
     end
 
 end
